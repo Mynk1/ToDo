@@ -1,0 +1,104 @@
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+button{
+  text-decoration:none;
+  background-color:#1877F2;
+  color:#ffffff;
+  border:none;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    width: 500px;   /* master width */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Input row: input + button */
+.input-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;    /* full width inside container */
+}
+
+#userInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ol {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 0;     /* REMOVE browser default gap */
+    list-style-position: inside;  /* keeps numbers aligned */
+}
+
+li {
+    padding: 8px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.complete-btn {
+    color: green;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+/* keep li items aligned */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  margin-top:10px;
+}
+
+/* container for Completed + Delete */
+.actions {
+    display: flex;
+    gap: 12px; /* spacing between them */
+}
+
+/* style for buttons */
+.action {
+    cursor: pointer;
+  font-size: 16px;
+    
+}
+
+.complete-btn {
+    color: green;
+  font-size: 1rem;
+
+}
+
+.delete-btn {
+    color: red;
+  font-size: 1rem;
+  
+} 
